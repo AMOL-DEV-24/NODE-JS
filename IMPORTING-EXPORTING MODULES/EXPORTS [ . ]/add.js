@@ -11,7 +11,7 @@ exports.add = (a, b) =>{
 //* exports is short for module.exports, and both can be used to export functions, objects, or values from a module. 
 //* However, when you assign a new object to exports, it will not work as expected because exports is just a reference to module.exports.
 //* Therefore,it is recommended to use module.exports when exporting multiple functions or objects to avoid confusion and ensure that the correct object is exported.  
-// exports ={
+// exports ={ // Not working
 //     sayHello,
 //     add
 // }
