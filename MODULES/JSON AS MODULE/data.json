@@ -1,0 +1,9 @@
+{
+    "name": "Amol Pawar",
+    "age": 26,
+    "phone": 9373428581,
+    "email": "amolpawar.dev@gmail.com",
+    "city": "Pandharpur",
+    "proff": "Software Developer",
+    "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Redux", "ReduxToolkit", "Nodejs", "MangoDB"]
+}
