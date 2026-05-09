@@ -4,6 +4,10 @@
 const fs = require("fs");
 
 fs.writeFile("./append.txt", "\nNew Line Added", { flag: "a" }, (err) => {
-  if (err) console.log(err);
-  else console.log("Data Appended");
+  if (err) {
+    console.log(err)
+  }
+  else {
+    console.log("Data Appended");
+  }
 });
